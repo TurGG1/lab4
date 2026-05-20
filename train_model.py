@@ -83,3 +83,11 @@ if __name__ == "__main__":
         f.write(path2model)
 
 
+print("FINAL METRICS")
+print(f"RMSE: {rmse:.0f} EUR")
+print(f"MAE: {mae:.0f} EUR")
+print(f"R2: {r2:.4f}")
+sys.stdout.flush()
+
+
+
